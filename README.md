@@ -1,5 +1,6 @@
 # 🏛️ Top Universities Web  
-> *My first project ever!*  
+
+##This is my first website when I am learning html, css and javascript.
 
 ## 🌍 About the Project  
 This is a simple yet informative **educational website** showcasing the **top universities in the world**. Built using **HTML, CSS, and JavaScript**, the website provides insights into leading universities, their rankings, and essential details.  
@@ -10,12 +11,14 @@ This is a simple yet informative **educational website** showcasing the **top un
 - **JavaScript** – Theme switching and interactive elements  
 
 ## 📂 Project Structure  
+```bash
 📂 Top-Universities-Web
-├── index.html # Main page
-├── style.css # Stylesheet for UI
-├── script.js # JavaScript for dynamic elements
-├── images/ # Folder containing university images
-└── README.md # Project documentation
+├── index.html         # Main page
+├── style.css          # Stylesheet for UI
+├── script.js          # JavaScript for dynamic elements
+├── images/            # Folder containing university images
+└── README.md          # Project documentation
+```
 
 ## 🌟 Features  
 ✅ **Dark & Light Theme** – Toggle between light and dark mode  
