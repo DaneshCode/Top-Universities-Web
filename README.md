@@ -1,16 +1,19 @@
-# 🏛️ Top Universities Web  
+# 🏛️ Top Universities Web
 
-##This is my first website when I am learning html, css and javascript.
+## This is my first website when I am learning html, css and javascript.
 
-## 🌍 About the Project  
-This is a simple yet informative **educational website** showcasing the **top universities in the world**. Built using **HTML, CSS, and JavaScript**, the website provides insights into leading universities, their rankings, and essential details.  
+## 🌍 About the Project
 
-## 🛠️ Technologies Used  
-- **HTML5** – Structure and content  
-- **CSS3** – Styling and layout  
-- **JavaScript** – Theme switching and interactive elements  
+This is a simple yet informative **educational website** showcasing the **top universities in the world**. Built using **HTML, CSS, and JavaScript**, the website provides insights into leading universities, their rankings, and essential details.
 
-## 📂 Project Structure  
+## 🛠️ Technologies Used
+
+- **HTML5** – Structure and content
+- **CSS3** – Styling and layout
+- **JavaScript** – Theme switching and interactive elements
+
+## 📂 Project Structure
+
 ```bash
 📂 Top-Universities-Web
 ├── index.html         # Main page
@@ -20,12 +23,13 @@ This is a simple yet informative **educational website** showcasing the **top un
 └── README.md          # Project documentation
 ```
 
-## 🌟 Features  
-✅ **Dark & Light Theme** – Toggle between light and dark mode  
-✅ **Responsive Design** – Optimized for all devices  
-✅ **University Information** – Displays images and descriptions of top universities  
-✅ **Smooth Animations** – CSS-based hover effects  
+## 🌟 Features
 
-## 🚀 How to Run  
-🔗 **View the website here:** [Click to open](https://daneshcode.github.io/Top-Universities-Web/)  
+✅ **Dark & Light Theme** – Toggle between light and dark mode
+✅ **Responsive Design** – Optimized for all devices
+✅ **University Information** – Displays images and descriptions of top universities
+✅ **Smooth Animations** – CSS-based hover effects
 
+## 🚀 How to Run
+
+🔗 **View the website here:** [Click to open](https://daneshcode.github.io/Top-Universities-Web/)
