@@ -30,7 +30,8 @@
     padding: 10px;
   }
 
-  h1, h3 {
+  h1,
+  h3 {
     color: #000 !important;
     page-break-after: avoid;
   }
@@ -70,22 +71,6 @@ body {
   padding: 0 1rem;
 }
 
-#themeButton_1,
-#themeButton_2 {
-  position: absolute;
-  font-size: xx-small;
-  top: 2px;
-  padding: 5px;
-}
-
-#themeButton_1 {
-  left: 2px;
-}
-
-#themeButton_2 {
-  left: 40px;
-}
-
 footer {
   position: fixed;
   bottom: 0;
@@ -93,34 +78,21 @@ footer {
   background-color: #f1f1f1;
   color: black;
   text-align: center;
-  padding: 1rem;
   font-size: clamp(1rem, 0.95rem + 0.25vw, 1.25rem);
   transition: margin-top 0.3s ease, background-color 0.3s ease, color 0.3s ease;
   display: flex;
   flex-direction: row;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
   backdrop-filter: blur(10px);
   box-shadow: 0 -4px 32px rgba(0, 0, 0, 0.1);
-}
-
-@media (max-width: 600px) {
-  footer {
-    margin-top: 7rem;
-  }
-}
-
-@media (max-width: 300px) {
-  footer {
-    flex-direction: column;
-  }
 }
 
 .pBox {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.5rem;
   line-height: 1.6;
   color: black;
   border: 1px solid rgba(255, 0, 0, 0.3);
@@ -147,49 +119,6 @@ h3:after {
   color: red;
 }
 
-button,
-a.button {
-  background-color: #444141;
-  border-radius: 10px;
-  color: #fff;
-  cursor: pointer;
-  padding: 10px;
-  margin: 5px;
-  font-size: 16px;
-  border: none;
-  text-decoration: none;
-  display: inline-block;
-  transition: all 0.3s ease;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  text-align: center;
-  outline: none;
-}
-
-button:hover,
-a.button:hover {
-  background-image: linear-gradient(
-    90deg,
-    #6a3093 0%,
-    #a044ff 50%,
-    #1f4037 75%,
-    #6a3093 100%
-  );
-  animation: slidernbw 5s linear infinite;
-  color: #fff !important; /* Ensure text is always white on hover */
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  transform: scale(1.1);
-}
-
-button:focus,
-a.button:focus {
-  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.6);
-}
-
-@keyframes slidernbw {
-  to {
-    background-position: 20vw;
-  }
-}
 /* From Uiverse.io by Galahhad */
 .theme-switch {
   --toggle-size: 0.5rem;
@@ -424,7 +353,8 @@ a.button:focus {
   + .theme-switch__container
   .theme-switch__circle-container:hover {
   left: calc(
-    100% - var(--circle-container-offset) - var(--circle-container-diameter) - 0.187em
+    100% - var(--circle-container-offset) - var(--circle-container-diameter) -
+      0.187em
   );
 }
 
@@ -475,6 +405,33 @@ img:hover {
 
 h1 {
   margin: 3rem 0 2rem;
-  font-size: 2rem;
   letter-spacing: 1px;
+}
+
+.made {
+  padding: 0;
+  text-align: center;
+}
+.made i {
+  font-size: x-large;
+}
+
+.made button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.made a,
+.made button {
+  color: #6366f1;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.3rem;
+}
+
+.made a:hover,
+.made button:hover {
+  color: #4f51e5;
+  text-decoration: underline;
 }
